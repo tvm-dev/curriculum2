@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Currículo Online - Professor Thiago</title>
+
+<style>
+    /* ======= ESTILO GERAL ======= */
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #d9eaff, #f4f7ff);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* ======= CABEÇALHO ======= */
+    header {
+      background: linear-gradient(135deg, #0078d4, #005bb5);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      animation: fadeDown 0.8s ease-in-out;
+    }
+
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.6rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    /* ======= CONTAINER PRINCIPAL ======= */
+    main {
+      max-width: 850px;
+      margin: 3rem auto;
+      background: #ffffffee;
+      padding: 2.5rem;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.12);
+      backdrop-filter: blur(6px);
+      animation: fadeUp 0.8s ease-in-out;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ======= SEÇÕES ======= */
+    section {
+      margin-bottom: 2.8rem;
+    }
+
+    h2 {
+      color: #005bb5;
+      border-left: 6px solid #0078d4;
+      padding-left: 0.7rem;
+      font-size: 1.6rem;
+      margin-bottom: 1.3rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    /* ======= LISTAS ======= */
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #f0f6ff;
+      padding: 0.8rem 1rem;
+      border-radius: 10px;
+      margin-bottom: 0.7rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+      font-size: 1.05rem;
+    }
+
+    ul li:hover {
+      transform: translateX(6px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    }
+
+    /* ======= LINKS ======= */
+    a {
+      color: #005bb5;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* ======= FOOTER ======= */
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      color: white;
+      background: linear-gradient(135deg, #0078d4, #005bb5);
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      box-shadow: 0 -4px 15px rgba(0,0,0,0.15);
+      font-size: 0.95rem;
+    }
+
+    /* Linha decorativa */
+    .decor {
+      text-align: center;
+      font-size: 1.5rem;
+      margin: 1.5rem 0;
+      color: #0078d4;
+    }
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Thiago Menezes 👨‍💻</h1>
+    <p>Estudante de Desenvolvimento WEB 3.0 🚀</p>
+</header>
+
+<main>
+
+    <section id="sobre">
+        <h2>🌟 Sobre mim</h2>
+        <p>
+            Tenho experiência em projetos com <strong>HTML5, CSS3, Javascript e PHP</strong>.<br>
+            Busco aprimorar minhas habilidades para ingressar no mercado de trabalho como programador.
+        </p>
+    </section>
+
+    <section id="formacao">
+        <h2>🎓 Formação</h2>
+        <ul>
+            <li><strong>Faculdade de BCC</strong> 👨‍🎓 — Universidade de São Paulo (2022)</li>
+            <li><strong>Curso Técnico em Informática</strong> 💻 — ETEC Cidade Tiradentes (2022–2024)</li>
+            <li><strong>Ensino Médio Completo</strong> 🏫 — Escola Estadual Osvaldo Gagliardi (2012)</li>
+        </ul>
+    </section>
+
+    <section id="projetos">
+        <h2>🚀 Projetos</h2>
+        <ul>
+            <li>🧇 <a href="#">Portfólio Pessoal</a> — Site com meus projetos</li>
+            <li>📝 <a href="#">To-Do List</a> — Aplicação para gerenciar tarefas</li>
+            <li>🧮 <a href="#">Calculadora Simples</a> — Projeto em Javascript puro</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>📬 Contatos</h2>
+
+        <p><strong>E-mail:</strong> senadorx@gmail.com</p>
+
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tvm-dev2015/?locale=en_US">Meu LinkedIn</a></p>
+        
+        <p><strong>GitHub:</strong> <a href="https://github.com/tvm-dev">Meu GitHub</a></p>
+
+        <div class="decor">• • •</div>
+    </section>
+
+</main>
+
+<footer>
+    © 2025 Professor Thiago — Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
